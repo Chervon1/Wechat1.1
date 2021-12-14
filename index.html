@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="theme-color" content="#000000" />
+        <script src="main.js"></script>
+        <script src="firebase.mjs" type="module"></script>
+        
+    </head>
+    <body>
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link rel="stylesheet" href="style.css">
+        <div id="buttons"></div>
+        
+
+        <div class="container">
+            <header>
+                WeChat <img src="demon-slayer.gif">
+            </header> 
+            <p>Hello. Welcome to the chat?</p>
+            
+
+            <div id="comments">
+                
+            </div>
+            <div id="addCommentDiv" style="display:none">
+                <img src="demon-slayer.gif">
+                
+                <textarea name="" id="newComment" cols="-300" rows="2"></textarea>
+                
+                <button id="addCommentBtn">Sent</button>
+                <br>
+                <button id="slattbratha">Exit.</button>
+
+            </div>
+
+        <div id="signupDiv" style="display:none">
+            Register:
+            <br>
+            Email: <input id="emailReg">
+            <br>
+            <br>
+            Password: <input type="password" id="passwordReg">
+            <br>
+            <button id="registerBtn">Register</button>
+            <br>
+            Already register? <a id="loginLink">Click here to sign in.</a>
+        </div>
+        <div id="loginDiv" style="display:none">
+            Log in:
+            <br>
+            Email: <input id="email">
+            <br>
+           <br>
+            Password: <input type="password" id="password">
+            <br>
+            <button id="loginBtn">Log In</button>
+            <br>
+            New user? <a id="signupLink">Click here to register.</a>
+            <div class="error"></div>
+        </div>
+      <!---  <div id="addCommentDiv" style="display:none">
+            <textarea name="" id="newComment" cols="-300" rows="2"></textarea>
+            <button id="addCommentBtn">Sent</button>
+            <br>
+            <button id="slattbratha">Exit.</button>
+        </div>-->
+    </body>
+    
+</html>
